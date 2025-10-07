@@ -8,20 +8,25 @@ body {
 header, footer {
   text-align: center;
   padding: 15px;
-  background-color: #222;
-  color: white;
+  background-color: #19191d6e; /* 6e = ~43% opacity */
+  color: #ffffff;
 }
 
 h1, h2 {
   text-align: center;
-  color: #333;
+  background: linear-gradient(90deg, #004aad, #00c2cb);
+  -webkit-background-clip: text; /* for Chrome, Safari */
+  background-clip: text;         /* standard property for compatibility */
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
+
 
 .content {
   max-width: 900px;
   margin: 20px auto;
   padding: 25px;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
